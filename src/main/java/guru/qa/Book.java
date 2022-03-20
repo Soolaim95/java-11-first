@@ -2,8 +2,8 @@ package guru.qa;
 
 public class Book {
 
-    String author = "James Smith";
-    String text = "Hello, world!";
+    String author;
+    String text;
 
     void doReadBook () {
 

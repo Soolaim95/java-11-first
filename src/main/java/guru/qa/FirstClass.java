@@ -47,6 +47,9 @@ public class FirstClass {
         boolean result2 = !(b > a) | (x == y) & f;
 
         Book watchmen = new Book();
+
+        watchmen.author = "James Smith";
+        watchmen.text = "Hello, world!";
         watchmen.doReadBook();
 
     }
